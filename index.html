@@ -5,12 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="folhas.css">
+    
     <title>Document</title>
+
+
 </head>
 <body>
-<<<<<<< HEAD
+    <div id="heading">
+        <h2>Hello World!</h2>
+    </div>
 
-    <nav>
+    <button id="azul">aperta</button>
+    <button id="vermelho">aperta</button>
+    <button id="verde">aperta</button>
+
+
+    <script>
+
+        var botaoAzul = document.getElementById("azul")
+        var botaoVermelho = document.getElementById("vermelho")
+        var botaoVerde = document.getElementById("verde")
+
+        botaoAzul.onclick = function(){
+            document.getElementById("heading").style.backgroundColor = "blue";
+
+        }
+
+        botaoVermelho.onclick = function(){
+            document.getElementById("heading").style.backgroundColor = "red";
+
+        }
+        
+        botaoVerde.onclick = function(){
+            document.getElementById("heading").style.backgroundColor = "green";
+
+        }
+      
+    </script>
+    
+<!-- <nav>
         <img src="img/logo.png" alt="logo">
         <ul>
             <li>MENU</li>
@@ -34,10 +67,20 @@
             </h5>
             <button type="button">BUY</button>
         </div>
-    </article>
-=======
- <h1>oi</h1>    
->>>>>>> 40083f53d5986d76edc16418e47106fdbd01f086
+    </article> 
+
+    <script>
+        var button = document.querySelector('button');
+
+        button.onclick = function() {
+            var nome = prompt('Qual é o seu nome?');
+            alert('Olá ' + nome + ', é um prazer te ver!');
+            }
+        
+    </script>
+<div>
     
+</div>
+-->
 </body>
 </html>
