@@ -5,46 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="folhas.css">
-    
+    <link rel="stylesheet" type="text/css" href="/Icons_web/css/all.css">
     <title>Document</title>
 
 
 </head>
 <body>
-    <div id="heading">
-        <h2>Hello World!</h2>
-    </div>
 
-    <button id="azul">aperta</button>
-    <button id="vermelho">aperta</button>
-    <button id="verde">aperta</button>
-
-
-    <script>
-
-        var botaoAzul = document.getElementById("azul")
-        var botaoVermelho = document.getElementById("vermelho")
-        var botaoVerde = document.getElementById("verde")
-
-        botaoAzul.onclick = function(){
-            document.getElementById("heading").style.backgroundColor = "blue";
-
-        }
-
-        botaoVermelho.onclick = function(){
-            document.getElementById("heading").style.backgroundColor = "red";
-
-        }
-        
-        botaoVerde.onclick = function(){
-            document.getElementById("heading").style.backgroundColor = "green";
-
-        }
-      
-    </script>
-    
-<!-- <nav>
-        <img src="img/logo.png" alt="logo">
+    <nav>
+        <img src="img/logo.png">
         <ul>
             <li>MENU</li>
             <li>SOBRE</li>
@@ -52,35 +21,71 @@
             <li>///</li>
         </ul>
     </nav>
+  
+    <section class="trajes">
 
-    <article class="roupas">
         <img src="img/HOMEM.png" alt="">
-
-        <div class="conteudo-texto">
-            <h3>TERNO COMPLETO</h3>
+        <div class="atributo">
+            <h4>Terno Completo</h4>
             <img src="img/button-colors.png" alt="">
-            <h5>Lorem Ipsum is simply dummy
-                text of the printing and typesetting <BR>
-                industry. Lorem Ipsum has been
-                the industry's <BR> standard dummy text
-                ever since.
-            </h5>
-            <button type="button">BUY</button>
+            <p>
+                ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                Reiciendis deserunt dignissimos architecto! <br>
+                Maiores ipsam cumque totam, error eos id facere.
+            </p>
+            <input type="button" value="Comprar" name="comprar">
         </div>
-    </article> 
 
-    <script>
-        var button = document.querySelector('button');
+    </section>
 
-        button.onclick = function() {
-            var nome = prompt('Qual é o seu nome?');
-            alert('Olá ' + nome + ', é um prazer te ver!');
-            }
+    <div class="linha"></div>
+
+    <section class="relogios">
+
+        <img class="relogio" src="img/Relogio.png" alt="">
+        <div class="atributo">
+            <h4>Relogios</h4>
+            <img src="img/Relogio2.png" alt="">
+            <p>
+                ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                Reiciendis deserunt dignissimos architecto! <br>
+                Maiores ipsam cumque totam, error eos id facere.
+            </p>
+            <input type="button" value="Comprar" name="comprar">
+        </div>
+
+    </section>
+
+    <section class="relogios">
+
+        <div class="atributo">
+            <h4>Aneis</h4>
+            <p>
+                ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                Reiciendis deserunt dignissimos architecto! <br>
+                Maiores ipsam cumque totam, error eos id facere.
+            </p>
+            <input type="button" value="Comprar" name="comprar">
+        </div>
+        <img class="anel" src="img/Anel.png" alt="">
         
-    </script>
-<div>
-    
-</div>
--->
+    </section>
+
+    <div class="linha"></div>
+
+
+    <footer>
+        <p>Aceitamos todos os tipos de pagamentos</p>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+
+        </div>
+    </footer>
+
+ 
+    <script src="script.js"></script>
 </body>
 </html>

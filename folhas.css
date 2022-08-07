@@ -1,4 +1,156 @@
-#heading{
-    width: 900px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+   
+}
+nav img{
+    padding: 20px;
+    width: 30px;
+}
+nav ul,img{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+nav ul li{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    list-style: none;
+    color: white;
+}
+nav ul li:hover{
+    transition-duration: 0.2s;
+    color: rgb(255, 230, 0);
+    cursor: pointer;
+}
+ 
+.trajes{
+    width: auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     height: 500px;
+}
+.trajes img{
+    width: 450px;
+}
+.atributo{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.atributo h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #fff;
+
+}
+.atributo img{
+    width: 60px;
+}
+.atributo p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.atributo input{
+    width: 120px;
+    height: 50px;
+    align-items: center;
+    background-color: #09a821;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.atributo input:hover{
+
+    transition-duration: 0.4s;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+.relogios{
+    width: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+
+.linha{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    width: auto;
+    height: 2px;
+    border-bottom: 10px #09a821;
+}
+
+.anel{
+    width: 500px;
+}
+
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    gap: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    width: auto;
+    height: 25vw;
+}
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #f2f2f2;
+    font-size: 30px;
+}
+.social{
+    font-size: 25px;
+    color: white;
+}
+.social i{
+    width: 30px;
+}
+.social i:hover{
+    color: rgb(255, 230, 0);
+    transition-duration: 0.2s;
+    cursor: pointer;
 }
